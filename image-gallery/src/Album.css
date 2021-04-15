@@ -1,0 +1,35 @@
+
+.main {
+    margin: 1rem 2rem;
+    border:1px solid black;
+    border-radius: 30px;
+}
+footer{
+    margin: 0 400px;
+
+}
+
+header {
+    background: royalblue;
+    border-radius: 30px;
+}
+
+
+
+@media (max-Width:720px){
+    footer {
+        margin: 0;
+    }
+    aside {
+        margin: 0;
+    }
+    .content {
+        margin: 0 1.5rem 0 0;
+    }
+}
+
+main h2 {
+    text-align: center;
+}
+
+
